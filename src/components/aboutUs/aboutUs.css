@@ -1,0 +1,40 @@
+.liste-options{
+    display: flex;
+    gap: 50px;
+    margin: 2rem 0 1rem 0;
+
+}
+.liste-options-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.liste-options-ul .verified{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.liste-options-ul li{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary);
+    margin: 5px 0;
+}
+.learn-more{
+    background: var(--fourth);
+    margin: 2rem 0;
+}
+.learn-more:hover{
+    background: rebeccapurple;
+}
+.learn-more a{
+    color: white;
+}
+
+button a{
+    color: white;
+}
+
+.manager{
+    border-radius: 20px;
+}

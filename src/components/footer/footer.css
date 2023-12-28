@@ -1,0 +1,120 @@
+.footer-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: var(--primary);
+    color: var(--five);
+
+}
+
+.footer-heading-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 4rem;
+}
+.description-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+.description-part p{
+    max-width: 250px;
+    font-weight: 400;
+}
+.description-part .logo span{
+    color: white;
+}
+.social-media{
+    display: flex;
+    margin: 1rem 0 2rem 0;
+    gap: 25px;
+}
+.social-media svg{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.social-media svg:hover{
+    color: var(--secondary);
+}
+
+.footer-heading-part .link-part{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.footer-heading-part .link-part ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.link-part ul h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.link-part ul li a{
+    color: var(--five);
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+.link-part ul li a:hover{
+    color: var(--secondary);
+}
+.footer-bottom-part{
+    display: flex;
+    flex-direction: column;
+}
+.footer-bottom-part .ligne{
+    width: 100%;
+    height: 4px;
+    background: var(--secondary);
+}
+
+
+.footer-bottom-part-p{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+}
+
+
+
+@media screen and (max-width : 1051px){
+   .footer-part{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+    .footer-heading-part{
+    margin: 4rem;
+    flex-direction: column;
+    width: 100%;
+    
+   }
+   .description-part{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+   .footer-heading-part .link-part{
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+    margin-top: 2rem;
+   }
+    .description-part p{
+    max-width: 90%;
+    }
+    .footer-bottom-part .footer-bottom-part-p{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+}
+
+

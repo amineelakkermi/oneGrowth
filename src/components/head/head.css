@@ -1,0 +1,10 @@
+.div{
+    border-radius: 30px;
+    max-width: 260px;
+    padding: 8px 5px 8px 16px;
+    background: var(--rounded);
+    margin: 1rem 0;
+}
+.div span{
+    color: var(--primary);
+}
