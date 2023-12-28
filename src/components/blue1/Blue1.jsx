@@ -10,25 +10,18 @@ import { fadeIn } from '../motion'
 const Blue1 = ({ title , paragraph}) => {
   return (
     <section className='blue'>
-        <div className="heading-part">
+       <div className="heading-part">
         <motion.h2
-        variants={fadeIn('right' , 'spring' , 1 , 3)}
-        initial="hidden"
-        animate="show">{title}
-        </motion.h2>
-        <motion.div
-        variants={fadeIn('left' , 'spring' , 1 , 3)}
-        initial="hidden"
-        animate="show"
-        className='text-contact'>
-        <p
-        >{paragraph}</p>
-        <button>
-        <a href="#">Contact Us</a>
-        </button>
-        </motion.div>
-       
-       
+         variants={fadeIn('right' , 'spring' , 1 , 3)}
+         initial="hidden"
+         animate="show"
+        >{title}</motion.h2>
+        <motion.p
+         variants={fadeIn('left' , 'spring' , 1 , 3)}
+         initial="hidden"
+         animate="show"
+        
+        >{paragraph}</motion.p>
         </div>
         <div className="blue-second-part">
         <div className="blue-img-container">

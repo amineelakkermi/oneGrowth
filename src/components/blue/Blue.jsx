@@ -52,7 +52,7 @@ const Blue = ({ title , paragraph}) => {
         <motion.div
           variants={staggerContainer(0.2 , 0.8)}
           initial="hidden"
-          whileInView="show"
+          animate="show"
           className="container">
             {
               itemsCard.map((item , index) => (

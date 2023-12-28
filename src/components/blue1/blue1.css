@@ -12,7 +12,22 @@
     height: 100%;
     border-radius: 20px;
     transition: 0.4s ease-in-out;
+    object-fit: cover;
 }
 .blue-img-container img:hover{
     scale: 1.05;
+}
+
+@media screen and (max-width : 550px){
+    .heading-part{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading-part p{
+        max-width: 100%;
+    }
+    .blue-img-container img{
+        height: 250px;
+    }
 }

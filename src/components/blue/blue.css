@@ -59,7 +59,7 @@
     align-items: center;
     gap: 30px;
     padding: 5rem 2rem;
-    height: 450px;
+    height: 480px;
     border-radius: 20px;
     transition: 0.5s ease-in-out;
     cursor: pointer;
@@ -97,6 +97,11 @@
         grid-template-columns: repeat(1 , 1fr);
 
     }
+    .second-part .container .card{
+        gap: 20px;
+        padding: 0;
+
+    }
 }
 
 @media screen and (min-width : 551px) and (max-width : 725px){
@@ -108,11 +113,15 @@
         flex-direction: column;
         gap: 40px;
     }
+    
     .second-part .container{ 
         grid-template-columns: repeat(1 , 1fr);
         gap: 60px;
     }
+   
 }
+
+
 
 @media screen and (min-width : 726px) and (max-width : 990px){
     .blue{

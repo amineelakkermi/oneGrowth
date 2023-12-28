@@ -7,8 +7,12 @@
     justify-content: center;
     align-items: center;
     max-width: 150px;
+
 }
 .about-us span{
     color: var(--secondary);
     font-weight: 600;
 }
+
+
+
